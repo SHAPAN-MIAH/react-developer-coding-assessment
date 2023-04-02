@@ -1,0 +1,30 @@
+.userProfile_container{
+  text-align: center;
+  font-family: sans-serif;
+}
+.userProfile_container img{
+  margin-bottom: 20px;
+}
+.post_container{
+  width: 90vw;
+  margin: auto;
+  padding: 70px 0px;
+}
+.post{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.post_content{
+  border: 1px solid gainsboro;
+  padding: 20px;
+  /* text-align: left; */
+}
+
+@media screen and (max-width: 768px){
+  .post{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+}
